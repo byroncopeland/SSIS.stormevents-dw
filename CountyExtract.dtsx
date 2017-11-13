@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="CountyExtract"
   DTS:PackageType="5"
-  DTS:VersionBuild="13"
-  DTS:VersionGUID="{17759A10-6E92-4AFA-AF31-F6F22BDD2706}">
+  DTS:VersionBuild="14"
+  DTS:VersionGUID="{37FBE62B-A99B-4514-A69C-290A700A59D4}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -867,13 +867,25 @@
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="181,42"
-          Id="Package\SQL Truncate Staging"
-          TopLeft="56.4,25" />
+          Size="151,42"
+          Id="Package\Data Flow Task"
+          TopLeft="71.4,209" />
         <NodeLayout
           Size="155,42"
           Id="Package\SQL Audit Begin"
           TopLeft="69.4,116" />
+        <NodeLayout
+          Size="147,42"
+          Id="Package\SQL Audit End"
+          TopLeft="76.4,372" />
+        <NodeLayout
+          Size="157,42"
+          Id="Package\SQL Count Rows"
+          TopLeft="68.4,301" />
+        <NodeLayout
+          Size="181,42"
+          Id="Package\SQL Truncate Staging"
+          TopLeft="56.4,25" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
           TopLeft="146.9,67">
@@ -896,10 +908,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="151,42"
-          Id="Package\Data Flow Task"
-          TopLeft="71.4,209" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
           TopLeft="146.9,158">
@@ -922,10 +930,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="157,42"
-          Id="Package\SQL Count Rows"
-          TopLeft="68.4,301" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 2]"
           TopLeft="146.9,251">
@@ -948,24 +952,20 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="147,42"
-          Id="Package\SQL Audit End"
-          TopLeft="73.4,403" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 3]"
-          TopLeft="146.9,343">
+          TopLeft="148.4,343">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,60"
+              EndConnector="0,29"
               Start="0,0"
-              End="0,52.5">
+              End="0,21.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.5" />
+                    End="0,21.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>

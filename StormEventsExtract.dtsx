@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="StormEventsExtract"
   DTS:PackageType="5"
-  DTS:VersionBuild="15"
-  DTS:VersionGUID="{10BE8C31-4722-48B7-86EB-33760C9B89F5}">
+  DTS:VersionBuild="18"
+  DTS:VersionGUID="{4D1A1A61-D712-4038-91AD-CBE160CBCB85}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -316,88 +316,6 @@
                       externalMetadataColumnId="Package\Data Flow Task\FF Errors.Inputs[Flat File Destination Input].ExternalColumns[ErrorColumn]"
                       lineageId="Package\Data Flow Task\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\FF Errors.Inputs[Flat File Destination Input].Columns[EventTypeID]"
-                      cachedDataType="i4"
-                      cachedName="EventTypeID"
-                      externalMetadataColumnId="Package\Data Flow Task\FF Errors.Inputs[Flat File Destination Input].ExternalColumns[EventTypeID]"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[EventTypeID]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\FF Errors.Inputs[Flat File Destination Input].Columns[EventID]"
-                      cachedDataType="i4"
-                      cachedName="EventID"
-                      externalMetadataColumnId="Package\Data Flow Task\FF Errors.Inputs[Flat File Destination Input].ExternalColumns[EventID]"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[EventID]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\FF Errors.Inputs[Flat File Destination Input].Columns[EpisodeID]"
-                      cachedDataType="i4"
-                      cachedName="EpisodeID"
-                      externalMetadataColumnId="Package\Data Flow Task\FF Errors.Inputs[Flat File Destination Input].ExternalColumns[EpisodeID]"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[EpisodeID]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\FF Errors.Inputs[Flat File Destination Input].Columns[StateID]"
-                      cachedDataType="i4"
-                      cachedName="StateID"
-                      externalMetadataColumnId="Package\Data Flow Task\FF Errors.Inputs[Flat File Destination Input].ExternalColumns[StateID]"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[StateID]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\FF Errors.Inputs[Flat File Destination Input].Columns[EndDateTime]"
-                      cachedDataType="dbTimeStamp"
-                      cachedName="EndDateTime"
-                      externalMetadataColumnId="Package\Data Flow Task\FF Errors.Inputs[Flat File Destination Input].ExternalColumns[EndDateTime]"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[EndDateTime]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\FF Errors.Inputs[Flat File Destination Input].Columns[BeginDateTime]"
-                      cachedDataType="dbTimeStamp"
-                      cachedName="BeginDateTime"
-                      externalMetadataColumnId="Package\Data Flow Task\FF Errors.Inputs[Flat File Destination Input].ExternalColumns[BeginDateTime]"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[BeginDateTime]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\FF Errors.Inputs[Flat File Destination Input].Columns[timezone]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="6"
-                      cachedName="timezone"
-                      externalMetadataColumnId="Package\Data Flow Task\FF Errors.Inputs[Flat File Destination Input].ExternalColumns[timezone]"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[timezone]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\FF Errors.Inputs[Flat File Destination Input].Columns[LocationID]"
-                      cachedDataType="i4"
-                      cachedName="LocationID"
-                      externalMetadataColumnId="Package\Data Flow Task\FF Errors.Inputs[Flat File Destination Input].ExternalColumns[LocationID]"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[LocationID]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\FF Errors.Inputs[Flat File Destination Input].Columns[Injuries]"
-                      cachedDataType="i4"
-                      cachedName="Injuries"
-                      externalMetadataColumnId="Package\Data Flow Task\FF Errors.Inputs[Flat File Destination Input].ExternalColumns[Injuries]"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[Injuries]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\FF Errors.Inputs[Flat File Destination Input].Columns[Deaths]"
-                      cachedDataType="i4"
-                      cachedName="Deaths"
-                      externalMetadataColumnId="Package\Data Flow Task\FF Errors.Inputs[Flat File Destination Input].ExternalColumns[Deaths]"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[Deaths]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\FF Errors.Inputs[Flat File Destination Input].Columns[DamageProperty]"
-                      cachedDataType="cy"
-                      cachedName="DamageProperty"
-                      externalMetadataColumnId="Package\Data Flow Task\FF Errors.Inputs[Flat File Destination Input].ExternalColumns[DamageProperty]"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[DamageProperty]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\FF Errors.Inputs[Flat File Destination Input].Columns[DamageCrops]"
-                      cachedDataType="cy"
-                      cachedName="DamageCrops"
-                      externalMetadataColumnId="Package\Data Flow Task\FF Errors.Inputs[Flat File Destination Input].ExternalColumns[DamageCrops]"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[DamageCrops]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\FF Errors.Inputs[Flat File Destination Input].Columns[SourceReporting]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="SourceReporting"
-                      externalMetadataColumnId="Package\Data Flow Task\FF Errors.Inputs[Flat File Destination Input].ExternalColumns[SourceReporting]"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[SourceReporting]" />
-                    <inputColumn
                       refId="Package\Data Flow Task\FF Errors.Inputs[Flat File Destination Input].Columns[Magnitude]"
                       cachedDataType="numeric"
                       cachedName="Magnitude"
@@ -405,22 +323,6 @@
                       cachedScale="2"
                       externalMetadataColumnId="Package\Data Flow Task\FF Errors.Inputs[Flat File Destination Input].ExternalColumns[Magnitude]"
                       lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[Magnitude]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\FF Errors.Inputs[Flat File Destination Input].Columns[MagnitudeType]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="2"
-                      cachedName="MagnitudeType"
-                      externalMetadataColumnId="Package\Data Flow Task\FF Errors.Inputs[Flat File Destination Input].ExternalColumns[MagnitudeType]"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[MagnitudeType]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\FF Errors.Inputs[Flat File Destination Input].Columns[TorFScale]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="3"
-                      cachedName="TorFScale"
-                      externalMetadataColumnId="Package\Data Flow Task\FF Errors.Inputs[Flat File Destination Input].ExternalColumns[TorFScale]"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[TorFScale]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -583,12 +485,6 @@
                   name="OLE DB Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[EventTypeID]"
-                      cachedDataType="i4"
-                      cachedName="EventTypeID"
-                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[EventTypeID]"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[EventTypeID]" />
-                    <inputColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[EventID]"
                       cachedDataType="i4"
                       cachedName="EventID"
@@ -626,6 +522,12 @@
                       cachedName="timezone"
                       externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[timezone]"
                       lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[timezone]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[EventTypeID]"
+                      cachedDataType="i4"
+                      cachedName="EventTypeID"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[EventTypeID]"
+                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[EventTypeID]" />
                     <inputColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[LocationID]"
                       cachedDataType="i4"
@@ -692,10 +594,6 @@
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[EventTypeID]"
-                      dataType="i4"
-                      name="EventTypeID" />
-                    <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[EventID]"
                       dataType="i4"
                       name="EventID" />
@@ -721,6 +619,10 @@
                       dataType="str"
                       length="6"
                       name="timezone" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[EventTypeID]"
+                      dataType="i4"
+                      name="EventTypeID" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[LocationID]"
                       dataType="i4"
@@ -818,7 +720,11 @@
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT        e.*
+FROM            StormEvents e
+LEFT JOIN      StormEventsStage.dbo.eventDatesTemp t
+on datepart(YYYY, e.BeginDateTime) = t.Year
+WHERE t.Year is NULL</property>
                 <property
                   dataType="System.String"
                   description="The variable that contains the SQL command to be executed."
@@ -835,7 +741,7 @@
                   dataType="System.Int32"
                   description="Specifies the mode used to access the database."
                   name="AccessMode"
-                  typeConverter="AccessMode">0</property>
+                  typeConverter="AccessMode">2</property>
                 <property
                   dataType="System.String"
                   description="The mappings between the parameters in the SQL command and variables."
@@ -854,15 +760,6 @@
                   refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output]"
                   name="OLE DB Source Output">
                   <outputColumns>
-                    <outputColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[EventTypeID]"
-                      dataType="i4"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[EventTypeID]"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[EventTypeID]"
-                      name="EventTypeID"
-                      truncationRowDisposition="FailComponent" />
                     <outputColumn
                       refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[EventID]"
                       dataType="i4"
@@ -918,6 +815,15 @@
                       length="6"
                       lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[timezone]"
                       name="timezone"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[EventTypeID]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[EventTypeID]"
+                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[EventTypeID]"
+                      name="EventTypeID"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
                       refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[LocationID]"
@@ -1012,10 +918,6 @@
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[EventTypeID]"
-                      dataType="i4"
-                      name="EventTypeID" />
-                    <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[EventID]"
                       dataType="i4"
                       name="EventID" />
@@ -1041,6 +943,10 @@
                       dataType="str"
                       length="6"
                       name="timezone" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[EventTypeID]"
+                      dataType="i4"
+                      name="EventTypeID" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[LocationID]"
                       dataType="i4"
@@ -1414,6 +1320,23 @@
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
+      DTS:refId="Package\SQL GetEventDatesLoaded"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{9D27F471-4E73-4996-82DF-3E90AB7F2310}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="SQL GetEventDatesLoaded"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2016; © 2015 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{EA632960-6794-47F2-A96E-FFC0671D07C4}"
+          SQLTask:SqlStatementSource="Truncate TABLE dbo.EventDatesTemp&#xA;GO&#xA;INSERT EventDatesTemp&#xA;select Distinct CalendarYear  from StormEventsDW.dbo.FactStormEvents e&#xA;join stormEventsDW.dbo.dimDate d&#xA;on e.beginDateKey = d.datekey&#xA;GO" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
       DTS:refId="Package\SQL Truncate Staging"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
@@ -1445,11 +1368,11 @@
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 1]"
       DTS:CreationName=""
-      DTS:DTSID="{ABA54547-D448-4E09-BBD5-4D3648610557}"
+      DTS:DTSID="{73E54E42-0233-4A5F-B5FE-A0D97B8FBC0A}"
       DTS:From="Package\SQL Audit Begin"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 1"
-      DTS:To="Package\Data Flow Task" />
+      DTS:To="Package\SQL GetEventDatesLoaded" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 2]"
       DTS:CreationName=""
@@ -1466,6 +1389,14 @@
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 3"
       DTS:To="Package\SQL Audit End" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 4]"
+      DTS:CreationName=""
+      DTS:DTSID="{1FBDE7DB-50E8-4FCF-854A-B90E4747418F}"
+      DTS:From="Package\SQL GetEventDatesLoaded"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 4"
+      DTS:To="Package\Data Flow Task" />
   </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
@@ -1482,26 +1413,26 @@
         <NodeLayout
           Size="151,42"
           Id="Package\Data Flow Task"
-          TopLeft="68,209" />
+          TopLeft="189,298" />
         <NodeLayout
           Size="155,42"
           Id="Package\SQL Audit Begin"
-          TopLeft="64,116" />
+          TopLeft="187,116" />
         <NodeLayout
           Size="147,42"
           Id="Package\SQL Audit End"
-          TopLeft="73,403" />
+          TopLeft="196,470" />
         <NodeLayout
           Size="157,42"
           Id="Package\SQL Count Rows"
-          TopLeft="75,301" />
+          TopLeft="198,368" />
         <NodeLayout
           Size="181,42"
           Id="Package\SQL Truncate Staging"
-          TopLeft="59,25" />
+          TopLeft="182,25" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="147.5,67">
+          TopLeft="270.5,67">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -1522,53 +1453,31 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="142.5,158">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,51"
-              Start="0,0"
-              End="0,43.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,43.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 2]"
-          TopLeft="143.5,251">
+          TopLeft="264.5,340">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="10,50"
+              EndConnector="12,28"
               Start="0,0"
-              End="10,42.5">
+              End="12,20.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,21" />
+                    End="0,10" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,21"
-                    Point2="0,25"
-                    Point3="4,25" />
+                    Point1="0,10"
+                    Point2="0,14"
+                    Point3="4,14" />
                   <mssgle:LineSegment
-                    End="6,25" />
+                    End="8,14" />
                   <mssgle:CubicBezierSegment
-                    Point1="6,25"
-                    Point2="10,25"
-                    Point3="10,29" />
+                    Point1="8,14"
+                    Point2="12,14"
+                    Point3="12,18" />
                   <mssgle:LineSegment
-                    End="10,42.5" />
+                    End="12,20.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1579,7 +1488,7 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 3]"
-          TopLeft="150,343">
+          TopLeft="273,410">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -1591,6 +1500,54 @@
                   Capacity="5">
                   <mssgle:LineSegment
                     End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="205,42"
+          Id="Package\SQL GetEventDatesLoaded"
+          TopLeft="164,213" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 1]"
+          TopLeft="265.5,158">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,55"
+              Start="0,0"
+              End="0,47.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,47.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 4]"
+          TopLeft="265.5,255">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,43"
+              Start="0,0"
+              End="0,35.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,35.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1612,6 +1569,10 @@
           Id="Package\Data Flow Task\RC Error"
           TopLeft="100.9,333" />
         <NodeLayout
+          Size="171,42"
+          Id="Package\Data Flow Task\OLE DB Destination"
+          TopLeft="82,223" />
+        <NodeLayout
           Size="150,42"
           Id="Package\Data Flow Task\OLE DB Source"
           TopLeft="85.4,32" />
@@ -1623,10 +1584,6 @@
           Size="122,42"
           Id="Package\Data Flow Task\FF Errors"
           TopLeft="98,417" />
-        <NodeLayout
-          Size="171,42"
-          Id="Package\Data Flow Task\OLE DB Destination"
-          TopLeft="82,223" />
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Row Count Output 11]"
           TopLeft="159.7,375">
@@ -1717,6 +1674,13 @@
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <AnnotationLayout
+          Text="Select query for source will look at StormEventsStage.dbo.eventDatesTemp&#xD;&#xA;which is populated in the Control Flow. indicates which years have already &#xD;&#xA;been loaded."
+          ParentId="Package\Data Flow Task"
+          FontInfo="{assembly:Null}"
+          Size="423,72"
+          Id="e742525a-8191-4823-b46f-72134ede56bb"
+          TopLeft="250,29" />
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
