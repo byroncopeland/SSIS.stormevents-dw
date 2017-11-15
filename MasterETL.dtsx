@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="MasterETL"
   DTS:PackageType="5"
-  DTS:VersionBuild="1"
-  DTS:VersionGUID="{3EAA5533-4E39-4C48-87A1-BD1B50FA914E}">
+  DTS:VersionBuild="2"
+  DTS:VersionGUID="{26C4441B-6A4E-4FB5-826F-22C8C76C4F79}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -73,7 +73,7 @@
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="147,42"
           Id="Package\Master Extract"
@@ -104,6 +104,20 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <AnnotationLayout
+          Text="Extract to Staging tables"
+          ParentId="Package"
+          FontInfo="{assembly:Null}"
+          Size="157,60"
+          Id="1dd961f2-88e9-4394-9051-8792f0fcd29d"
+          TopLeft="304,107" />
+        <AnnotationLayout
+          Text="Load Dimension and Fact table "
+          ParentId="Package"
+          FontInfo="{assembly:Null}"
+          Size="195,60"
+          Id="5081982a-f248-4430-b8ed-83c4f3492930"
+          TopLeft="314,221" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
